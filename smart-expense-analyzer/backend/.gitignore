@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+venv/
+.ruff_cache/
+# Note: app/ml/*.joblib (the trained model) is intentionally NOT ignored -
+# it's a required project deliverable and should be committed.

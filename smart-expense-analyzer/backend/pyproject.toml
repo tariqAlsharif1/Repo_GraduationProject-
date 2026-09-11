@@ -1,0 +1,10 @@
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "DTZ"]
+ignore = [
+    "B008",  # FastAPI's Depends()-as-default is the documented, intended pattern.
+    "DTZ011",  # date.today() is fine here - budgets/expenses are tracked in local/server time, not UTC-sensitive.
+]

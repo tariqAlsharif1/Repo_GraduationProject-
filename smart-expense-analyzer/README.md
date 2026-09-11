@@ -1,5 +1,4 @@
-# Repo_GraduationProject-
-Smart Personal  Expense &amp; Budget Analyzer
+# Smart Personal Expense & Budget Analyzer
 
 A full-stack personal finance web app: record expenses, auto-categorize
 them with a trained ML model, track a monthly budget, and see spending
